@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/d/djmock/Documents/ECE_564/Project/ece564
+vECE564MyDesign
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1574459609
+!i10b 1
+!s100 no_[zXRXlaBYCOWzKEbi81
+IM54z3H3oDD8z5bdb>4K^92
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 ece564_project_tb_top_sv_unit
+S1
+R0
+w1574459601
+8ECE564MyDesign.v
+FECE564MyDesign.v
+L0 8
+Z5 OL;L;10.6c;65
+r1
+!s85 0
+31
+Z6 !s108 1574459609.000000
+!s107 sram.sv|ECE564MyDesign.v|ece564_project_tb_top.sv|
+Z7 !s90 -reportprogress|300|ece564_project_tb_top.sv|
+!i113 1
+Z8 tCvgOpt 0
+n@e@c@e564@my@design
+vsram
+R1
+R2
+!i10b 1
+!s100 bjZM7>P7l2F_alaQ9jniJ1
+I;F]z7Ua:K>I_Zd`zF`HR60
+R3
+R4
+S1
+R0
+w1571864944
+8sram.sv
+Fsram.sv
+L0 16
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 sram.sv|ECE564MyDesign.v|ece564_project_tb_top.sv|
+R7
+!i113 1
+R8
+vtb_top
+R1
+R2
+!i10b 1
+!s100 DId`c8f@n]E]VK`VUB=1N1
+I^3GmmEkGzD7`CmgNDGR380
+R3
+R4
+S1
+R0
+w1574284430
+8ece564_project_tb_top.sv
+Fece564_project_tb_top.sv
+L0 34
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8

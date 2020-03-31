@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/d/djmock/Documents/ECE_564/hw_6
+vaccum
+!s110 1570835417
+!i10b 1
+!s100 E?KQogk?cO7XSdb5V0clK1
+IVQ3^c=cSE=3<PjW=`zm`M3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1570835412
+8hw6.v
+Fhw6.v
+L0 2
+Z2 OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1570835416.000000
+!s107 hw6.v|
+!s90 -reportprogress|300|hw6.v|
+!i113 1
+Z3 tCvgOpt 0
+vtest_fixture
+!s110 1570826664
+!i10b 1
+!s100 GGNaf8BMBFLLeXcmW[3J@3
+IR8@HFbhD3I4X>ahcEO^IT0
+R1
+R0
+w1570826662
+8test_fixture.v
+Ftest_fixture.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1570826664.000000
+!s107 test_fixture.v|
+!s90 test_fixture.v|
+!i113 1
+R3

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/d/djmock/Documents/ECE_564/hw_5
+vfsm
+!s110 1570048815
+!i10b 1
+!s100 enALUj5SalYZ9APMZi0g`2
+IAXGkE]i]j@Y^<J2PLMS=>1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1570047754
+8hw5.v
+Fhw5.v
+L0 2
+Z2 OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1570048815.000000
+!s107 hw5.v|
+!s90 hw5.v|
+!i113 1
+Z3 tCvgOpt 0
+vrq_tb
+!s110 1570047771
+!i10b 1
+!s100 Jj_SOb45c3AnLoCJ;5V<>2
+IaKL6z<EoOR_CJ`^^T5a7?0
+R1
+R0
+w1570047660
+8hw5tf.v
+Fhw5tf.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1570047771.000000
+!s107 hw5tf.v|
+!s90 hw5tf.v|
+!i113 1
+R3
+vtestfixture
+!s110 1570048838
+!i10b 1
+!s100 <<EgzMVJRi[dOW6FZHhan0
+IT9IR7Pbgd<T94^2c9azNJ1
+R1
+R0
+w1570046858
+8testfixture.v
+Ftestfixture.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1570048838.000000
+!s107 testfixture.v|
+!s90 testfixture.v|
+!i113 1
+R3

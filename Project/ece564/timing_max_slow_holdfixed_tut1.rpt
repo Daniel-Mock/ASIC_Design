@@ -1,0 +1,77 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ECE564MyDesign
+Version: M-2016.12-SP4
+Date   : Fri Nov 22 16:44:10 2019
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: tanh_addr_reg_20_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: g_reg_30_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                 0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  tanh_addr_reg_20_/CK (DFF_X2)                         0.0000     0.0000 r
+  tanh_addr_reg_20_/Q (DFF_X2)                          0.3860     0.3860 r
+  mult_213_2/b[7] (ECE564MyDesign_DW_mult_uns_7)        0.0000     0.3860 r
+  mult_213_2/U683/ZN (INV_X2)                           0.0711     0.4571 f
+  mult_213_2/U684/ZN (INV_X4)                           0.3330     0.7900 r
+  mult_213_2/U654/Z (XOR2_X2)                           0.4509     1.2409 r
+  mult_213_2/U662/ZN (INV_X4)                           0.1469     1.3878 f
+  mult_213_2/U645/ZN (NAND2_X2)                         0.5452     1.9330 r
+  mult_213_2/U393/ZN (OAI22_X2)                         0.2210     2.1540 f
+  mult_213_2/U313/S (FA_X1)                             0.8837     3.0377 f
+  mult_213_2/U311/S (FA_X1)                             0.7981     3.8357 r
+  mult_213_2/U310/S (FA_X1)                             0.7018     4.5375 f
+  mult_213_2/U694/ZN (NOR2_X2)                          0.2097     4.7472 r
+  mult_213_2/U704/ZN (OAI21_X2)                         0.0945     4.8417 f
+  mult_213_2/U637/ZN (AOI21_X1)                         0.3626     5.2042 r
+  mult_213_2/U686/ZN (OAI21_X1)                         0.2062     5.4105 f
+  mult_213_2/U703/ZN (INV_X4)                           0.1423     5.5527 r
+  mult_213_2/U752/ZN (OAI21_X1)                         0.1016     5.6543 f
+  mult_213_2/U138/ZN (XNOR2_X2)                         0.2625     5.9168 f
+  mult_213_2/product[17] (ECE564MyDesign_DW_mult_uns_7)
+                                                        0.0000     5.9168 f
+  add_213/B[17] (ECE564MyDesign_DW01_add_2)             0.0000     5.9168 f
+  add_213/U271/ZN (NOR2_X2)                             0.2592     6.1760 r
+  add_213/U234/ZN (INV_X4)                              0.0404     6.2165 f
+  add_213/U232/ZN (NAND2_X2)                            0.0848     6.3013 r
+  add_213/U233/ZN (NAND2_X2)                            0.0663     6.3676 f
+  add_213/U236/ZN (AND2_X2)                             0.2091     6.5767 f
+  add_213/U246/ZN (NOR2_X2)                             0.1973     6.7740 r
+  add_213/U262/ZN (OAI21_X2)                            0.1191     6.8931 f
+  add_213/U261/ZN (INV_X1)                              0.1098     7.0029 r
+  add_213/U319/ZN (OAI21_X2)                            0.1069     7.1097 f
+  add_213/U21/ZN (XNOR2_X2)                             0.2456     7.3553 f
+  add_213/SUM[24] (ECE564MyDesign_DW01_add_2)           0.0000     7.3553 f
+  U1304/ZN (AND2_X1)                                    0.1803     7.5356 f
+  U1306/ZN (NOR3_X2)                                    0.1727     7.7083 r
+  U1766/ZN (INV_X4)                                     0.0402     7.7485 f
+  g_reg_30_/D (DFF_X2)                                  0.0000     7.7485 f
+  data arrival time                                                7.7485
+
+  clock clk (rise edge)                                 8.1000     8.1000
+  clock network delay (ideal)                           0.0000     8.1000
+  clock uncertainty                                    -0.0500     8.0500
+  g_reg_30_/CK (DFF_X2)                                 0.0000     8.0500 r
+  library setup time                                   -0.3006     7.7494
+  data required time                                               7.7494
+  --------------------------------------------------------------------------
+  data required time                                               7.7494
+  data arrival time                                               -7.7485
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0009
+
+
+1

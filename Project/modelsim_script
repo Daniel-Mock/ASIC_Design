@@ -1,0 +1,27 @@
+add wave -position insertpoint  \
+sim:/tb_top/dut/y_1 \
+sim:/tb_top/dut/y_0 \
+sim:/tb_top/dut/x_1 \
+sim:/tb_top/dut/x_0 \
+sim:/tb_top/dut/x \
+sim:/tb_top/dut/wx_accum \
+sim:/tb_top/dut/w \
+sim:/tb_top/dut/tanhmem__dut__read_data \
+sim:/tb_top/dut/sram__dut__read_data \
+sim:/tb_top/dut/next_state \
+sim:/tb_top/dut/interpolate \
+sim:/tb_top/dut/gmem__dut__read_data \
+sim:/tb_top/dut/g \
+sim:/tb_top/dut/dut__sram__read_address \
+sim:/tb_top/dut/dut__gmem__read_address \
+sim:/tb_top/dut/current_state \
+sim:/tb_top/dut/clk \
+sim:/tb_top/dut/accum
+
+vlog ECE564MyDesign.v
+vlog ece564_project_tb_top.sv
+
+log -r *
+
+restart -all
+run -all

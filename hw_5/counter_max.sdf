@@ -1,0 +1,72 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "fsm")
+(DATE "Thu Oct  3 14:26:09 2019")
+(VENDOR "NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "K-2015.06-SP1")
+(DIVIDER /)
+(VOLTAGE 0.95:0.95:0.95)
+(PROCESS "slow")
+(TEMPERATURE 125.00:125.00:125.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "fsm")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT U3/Z current_state_reg/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock current_state_reg/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT reset current_state_reg/RN (0.0000:0.0000:0.0000))
+    (INTERCONNECT R1 U3/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT R0 U3/B (0.0000:0.0000:0.0000))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "INV_X4")
+  (INSTANCE U4)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A ZN (0.1825:0.1825:0.1825) (0.0498:0.0498:0.0498))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFR_X2")
+  (INSTANCE current_state_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.7666:0.7666:0.7666) (0.8526:0.8526:0.8526))
+    (COND (CK == 1'b0) (IOPATH RN Q (0.0000:0.0000:0.0000) (0.3091:0.3108:0.3108)))
+    (COND (CK == 1'b1) (IOPATH RN Q (0.0000:0.0000:0.0000) (0.3090:0.3107:0.3107)))
+    (IOPATH (posedge CK) QN (0.4047:0.4047:0.4047) (0.3496:0.3496:0.3496))
+    (COND (CK == 1'b0) (IOPATH RN QN (0.4209:0.4226:0.4226) (0.0000:0.0000:0.0000)))
+    (COND (CK == 1'b1) (IOPATH RN QN (0.6511:0.6525:0.6525) (0.0000:0.0000:0.0000)))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3563:0.3563:0.3563))
+    (WIDTH (negedge CK) (0.5125:0.5125:0.5125))
+    (HOLD (posedge D) (COND RN == 1'b1 (posedge CK)) (-0.0714:-0.0794:-0.0794))
+    (HOLD (negedge D) (COND RN == 1'b1 (posedge CK)) (-0.0341:-0.0507:-0.0507))
+    (SETUP (posedge D) (COND RN == 1'b1 (posedge CK)) (0.2786:0.2951:0.2951))
+    (SETUP (negedge D) (COND RN == 1'b1 (posedge CK)) (0.4024:0.4194:0.4194))
+    (RECOVERY (posedge RN) (posedge CK) (-0.1464:-0.1469:-0.1469))
+    (HOLD (posedge RN) (posedge CK) (0.2745:0.2760:0.2760))
+    (WIDTH (negedge RN) (0.3313:0.3313:0.3313))
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X2")
+  (INSTANCE U3)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.3360:0.3518:0.3518) (0.2952:0.2992:0.2992)))
+    (COND (B == 1'b1) (IOPATH A Z (0.1579:0.1639:0.1639) (0.0677:0.0780:0.0780)))
+    (COND (A == 1'b0) (IOPATH B Z (0.3059:0.3237:0.3237) (0.3806:0.3846:0.3846)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2090:0.2148:0.2148) (0.0799:0.0909:0.0909)))
+    )
+  )
+)
+)

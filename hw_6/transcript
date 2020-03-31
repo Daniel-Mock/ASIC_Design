@@ -1,0 +1,5765 @@
+# //  ModelSim SE-64 10.6c Jul 25 2017Linux 3.10.0-1062.1.2.el7.x86_64
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -novopt test_fixture 
+# Start time: 16:48:22 on Oct 11,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.test_fixture
+# Loading work.accum
+add wave -position insertpoint  \
+sim:/test_fixture/TestCycles \
+sim:/test_fixture/TC \
+sim:/test_fixture/clock \
+sim:/test_fixture/reset \
+sim:/test_fixture/clear \
+sim:/test_fixture/DataIn1Vectors \
+sim:/test_fixture/DataIn2Vectors \
+sim:/test_fixture/ExpectedEvenParity \
+sim:/test_fixture/ExpectedGreyCode \
+sim:/test_fixture/ExpectedOverflow \
+sim:/test_fixture/DataIn1 \
+sim:/test_fixture/DataIn2 \
+sim:/test_fixture/overflow \
+sim:/test_fixture/EvenParity \
+sim:/test_fixture/GreyCode \
+sim:/test_fixture/i \
+sim:/test_fixture/j
+log -r *
+run 300ns
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run 300ns
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run 300ns
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+add wave -position insertpoint  \
+sim:/test_fixture/reset \
+sim:/test_fixture/overflow \
+sim:/test_fixture/GreyCode \
+sim:/test_fixture/EvenParity \
+sim:/test_fixture/DataIn2 \
+sim:/test_fixture/DataIn1 \
+sim:/test_fixture/clock \
+sim:/test_fixture/clear
+add wave -position insertpoint  \
+sim:/test_fixture/reset \
+sim:/test_fixture/overflow \
+sim:/test_fixture/GreyCode \
+sim:/test_fixture/EvenParity \
+sim:/test_fixture/DataIn2 \
+sim:/test_fixture/DataIn1 \
+sim:/test_fixture/clock \
+sim:/test_fixture/clear
+run 300ns
+add wave -position insertpoint  \
+sim:/test_fixture/reset \
+sim:/test_fixture/overflow \
+sim:/test_fixture/GreyCode \
+sim:/test_fixture/EvenParity \
+sim:/test_fixture/DataIn2 \
+sim:/test_fixture/DataIn1 \
+sim:/test_fixture/clock \
+sim:/test_fixture/clear
+run 300ns
+add wave -position insertpoint  \
+sim:/test_fixture/reset \
+sim:/test_fixture/overflow \
+sim:/test_fixture/GreyCode \
+sim:/test_fixture/EvenParity \
+sim:/test_fixture/DataIn2 \
+sim:/test_fixture/DataIn1 \
+sim:/test_fixture/clock \
+sim:/test_fixture/clear
+run 300ns
+add wave -position insertpoint  \
+sim:/test_fixture/reset \
+sim:/test_fixture/overflow \
+sim:/test_fixture/GreyCode \
+sim:/test_fixture/EvenParity \
+sim:/test_fixture/DataIn2 \
+sim:/test_fixture/DataIn1 \
+sim:/test_fixture/clock \
+sim:/test_fixture/clear
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run 300ns
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Grey Code
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           1
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Parity cycle         255
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           1
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Parity cycle         255
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# Error in Parity cycle           0
+# 
+# Error in Parity cycle           1
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           2
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           3
+# 
+# Error in Grey Code
+# 
+# Error in Parity cycle           4
+# 
+# Error in Parity cycle           5
+# 
+# Error in Parity cycle           6
+# 
+# Error in Parity cycle           7
+# 
+# Error in Parity cycle           8
+# 
+# Error in Parity cycle           9
+# 
+# Error in Parity cycle          10
+# 
+# Error in Parity cycle          11
+# 
+# Error in Parity cycle          12
+# 
+# Error in Parity cycle          13
+# 
+# Error in Parity cycle          14
+# 
+# Error in Parity cycle          15
+# 
+# Error in Parity cycle          16
+# 
+# Error in Parity cycle          17
+# 
+# Error in Parity cycle          18
+# 
+# Error in Parity cycle          19
+# 
+# Error in Parity cycle          20
+# 
+# Error in Parity cycle          21
+# 
+# Error in Parity cycle          22
+# 
+# Error in Parity cycle          23
+# 
+# Error in Parity cycle          24
+# 
+# Error in Parity cycle          25
+# 
+# Error in Parity cycle          26
+# 
+# Error in Parity cycle          27
+# 
+# Error in Parity cycle          28
+# 
+# Error in Parity cycle          29
+# 
+# Error in Parity cycle          30
+# 
+# Error in Parity cycle          31
+# 
+# Error in Parity cycle          32
+# 
+# Error in Parity cycle          33
+# 
+# Error in Parity cycle          34
+# 
+# Error in Parity cycle          35
+# 
+# Error in Parity cycle          36
+# 
+# Error in Parity cycle          37
+# 
+# Error in Parity cycle          38
+# 
+# Error in Parity cycle          39
+# 
+# Error in Parity cycle          40
+# 
+# Error in Parity cycle          41
+# 
+# Error in Parity cycle          42
+# 
+# Error in Parity cycle          43
+# 
+# Error in Parity cycle          44
+# 
+# Error in Parity cycle          45
+# 
+# Error in Parity cycle          46
+# 
+# Error in Parity cycle          47
+# 
+# Error in Parity cycle          48
+# 
+# Error in Parity cycle          49
+# 
+# Error in Parity cycle          50
+# 
+# Error in Parity cycle          51
+# 
+# Error in Parity cycle          52
+# 
+# Error in Parity cycle          53
+# 
+# Error in Parity cycle          54
+# 
+# Error in Parity cycle          55
+# 
+# Error in Parity cycle          56
+# 
+# Error in Parity cycle          57
+# 
+# Error in Parity cycle          58
+# 
+# Error in Parity cycle          59
+# 
+# Error in Parity cycle          60
+# 
+# Error in Parity cycle          61
+# 
+# Error in Parity cycle          62
+# 
+# Error in Parity cycle          63
+# 
+# Error in Parity cycle          64
+# 
+# Error in Parity cycle          65
+# 
+# Error in Parity cycle          66
+# 
+# Error in Parity cycle          67
+# 
+# Error in Parity cycle          68
+# 
+# Error in Parity cycle          69
+# 
+# Error in Parity cycle          70
+# 
+# Error in Parity cycle          71
+# 
+# Error in Parity cycle          72
+# 
+# Error in Parity cycle          73
+# 
+# Error in Parity cycle          74
+# 
+# Error in Parity cycle          75
+# 
+# Error in Parity cycle          76
+# 
+# Error in Parity cycle          77
+# 
+# Error in Parity cycle          78
+# 
+# Error in Parity cycle          79
+# 
+# Error in Parity cycle          80
+# 
+# Error in Parity cycle          81
+# 
+# Error in Parity cycle          82
+# 
+# Error in Parity cycle          83
+# 
+# Error in Parity cycle          84
+# 
+# Error in Parity cycle          85
+# 
+# Error in Parity cycle          86
+# 
+# Error in Parity cycle          87
+# 
+# Error in Parity cycle          88
+# 
+# Error in Parity cycle          89
+# 
+# Error in Parity cycle          90
+# 
+# Error in Parity cycle          91
+# 
+# Error in Parity cycle          92
+# 
+# Error in Parity cycle          93
+# 
+# Error in Parity cycle          94
+# 
+# Error in Parity cycle          95
+# 
+# Error in Parity cycle          96
+# 
+# Error in Parity cycle          97
+# 
+# Error in Parity cycle          98
+# 
+# Error in Parity cycle          99
+# 
+# Error in Parity cycle         100
+# 
+# Error in Parity cycle         101
+# 
+# Error in Parity cycle         102
+# 
+# Error in Parity cycle         103
+# 
+# Error in Parity cycle         104
+# 
+# Error in Parity cycle         105
+# 
+# Error in Parity cycle         106
+# 
+# Error in Parity cycle         107
+# 
+# Error in Parity cycle         108
+# 
+# Error in Parity cycle         109
+# 
+# Error in Parity cycle         110
+# 
+# Error in Parity cycle         111
+# 
+# Error in Parity cycle         112
+# 
+# Error in Parity cycle         113
+# 
+# Error in Parity cycle         114
+# 
+# Error in Parity cycle         115
+# 
+# Error in Parity cycle         116
+# 
+# Error in Parity cycle         117
+# 
+# Error in Parity cycle         118
+# 
+# Error in Parity cycle         119
+# 
+# Error in Parity cycle         120
+# 
+# Error in Parity cycle         121
+# 
+# Error in Parity cycle         122
+# 
+# Error in Parity cycle         123
+# 
+# Error in Parity cycle         124
+# 
+# Error in Parity cycle         125
+# 
+# Error in Parity cycle         126
+# 
+# Error in Parity cycle         127
+# 
+# Error in Parity cycle         128
+# 
+# Error in Parity cycle         129
+# 
+# Error in Parity cycle         130
+# 
+# Error in Parity cycle         131
+# 
+# Error in Parity cycle         132
+# 
+# Error in Parity cycle         133
+# 
+# Error in Parity cycle         134
+# 
+# Error in Parity cycle         135
+# 
+# Error in Parity cycle         136
+# 
+# Error in Parity cycle         137
+# 
+# Error in Parity cycle         138
+# 
+# Error in Parity cycle         139
+# 
+# Error in Parity cycle         140
+# 
+# Error in Parity cycle         141
+# 
+# Error in Parity cycle         142
+# 
+# Error in Parity cycle         143
+# 
+# Error in Parity cycle         144
+# 
+# Error in Parity cycle         145
+# 
+# Error in Parity cycle         146
+# 
+# Error in Parity cycle         147
+# 
+# Error in Parity cycle         148
+# 
+# Error in Parity cycle         149
+# 
+# Error in Parity cycle         150
+# 
+# Error in Parity cycle         151
+# 
+# Error in Parity cycle         152
+# 
+# Error in Parity cycle         153
+# 
+# Error in Parity cycle         154
+# 
+# Error in Parity cycle         155
+# 
+# Error in Parity cycle         156
+# 
+# Error in Parity cycle         157
+# 
+# Error in Parity cycle         158
+# 
+# Error in Parity cycle         159
+# 
+# Error in Parity cycle         160
+# 
+# Error in Parity cycle         161
+# 
+# Error in Parity cycle         162
+# 
+# Error in Parity cycle         163
+# 
+# Error in Parity cycle         164
+# 
+# Error in Parity cycle         165
+# 
+# Error in Parity cycle         166
+# 
+# Error in Parity cycle         167
+# 
+# Error in Parity cycle         168
+# 
+# Error in Parity cycle         169
+# 
+# Error in Parity cycle         170
+# 
+# Error in Parity cycle         171
+# 
+# Error in Parity cycle         172
+# 
+# Error in Parity cycle         173
+# 
+# Error in Parity cycle         174
+# 
+# Error in Parity cycle         175
+# 
+# Error in Parity cycle         176
+# 
+# Error in Parity cycle         177
+# 
+# Error in Parity cycle         178
+# 
+# Error in Parity cycle         179
+# 
+# Error in Parity cycle         180
+# 
+# Error in Parity cycle         181
+# 
+# Error in Parity cycle         182
+# 
+# Error in Parity cycle         183
+# 
+# Error in Parity cycle         184
+# 
+# Error in Parity cycle         185
+# 
+# Error in Parity cycle         186
+# 
+# Error in Parity cycle         187
+# 
+# Error in Parity cycle         188
+# 
+# Error in Parity cycle         189
+# 
+# Error in Parity cycle         190
+# 
+# Error in Parity cycle         191
+# 
+# Error in Parity cycle         192
+# 
+# Error in Parity cycle         193
+# 
+# Error in Parity cycle         194
+# 
+# Error in Parity cycle         195
+# 
+# Error in Parity cycle         196
+# 
+# Error in Parity cycle         197
+# 
+# Error in Parity cycle         198
+# 
+# Error in Parity cycle         199
+# 
+# Error in Parity cycle         200
+# 
+# Error in Parity cycle         201
+# 
+# Error in Parity cycle         202
+# 
+# Error in Parity cycle         203
+# 
+# Error in Parity cycle         204
+# 
+# Error in Parity cycle         205
+# 
+# Error in Parity cycle         206
+# 
+# Error in Parity cycle         207
+# 
+# Error in Parity cycle         208
+# 
+# Error in Parity cycle         209
+# 
+# Error in Parity cycle         210
+# 
+# Error in Parity cycle         211
+# 
+# Error in Parity cycle         212
+# 
+# Error in Parity cycle         213
+# 
+# Error in Parity cycle         214
+# 
+# Error in Parity cycle         215
+# 
+# Error in Parity cycle         216
+# 
+# Error in Parity cycle         217
+# 
+# Error in Parity cycle         218
+# 
+# Error in Parity cycle         219
+# 
+# Error in Parity cycle         220
+# 
+# Error in Parity cycle         221
+# 
+# Error in Parity cycle         222
+# 
+# Error in Parity cycle         223
+# 
+# Error in Parity cycle         224
+# 
+# Error in Parity cycle         225
+# 
+# Error in Parity cycle         226
+# 
+# Error in Parity cycle         227
+# 
+# Error in Parity cycle         228
+# 
+# Error in Parity cycle         229
+# 
+# Error in Parity cycle         230
+# 
+# Error in Parity cycle         231
+# 
+# Error in Parity cycle         232
+# 
+# Error in Parity cycle         233
+# 
+# Error in Parity cycle         234
+# 
+# Error in Parity cycle         235
+# 
+# Error in Parity cycle         236
+# 
+# Error in Parity cycle         237
+# 
+# Error in Parity cycle         238
+# 
+# Error in Parity cycle         239
+# 
+# Error in Parity cycle         240
+# 
+# Error in Parity cycle         241
+# 
+# Error in Parity cycle         242
+# 
+# Error in Parity cycle         243
+# 
+# Error in Parity cycle         244
+# 
+# Error in Parity cycle         245
+# 
+# Error in Parity cycle         246
+# 
+# Error in Parity cycle         247
+# 
+# Error in Parity cycle         248
+# 
+# Error in Parity cycle         249
+# 
+# Error in Parity cycle         250
+# 
+# Error in Parity cycle         251
+# 
+# Error in Parity cycle         252
+# 
+# Error in Parity cycle         253
+# 
+# Error in Parity cycle         254
+# 
+# Error in Overflow 
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         256
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         257
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         258
+# 
+# Error in Overflow 
+# 
+# Error in Parity cycle         259
+# 
+# Error in Overflow 
+# 
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+run -all
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+vlog hw6.v
+# Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+# Start time: 18:45:49 on Oct 11,2019
+# vlog -reportprogress 300 hw6.v 
+# -- Compiling module accum
+# ** Error: (vlog-13069) hw6.v(4): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): hw6.v(22): (vlog-13299) Undefined variable: 'EvenParity'.
+# ** Error (suppressible): hw6.v(23): (vlog-13299) Undefined variable: 'GreyCode'.
+# ** Error (suppressible): hw6.v(24): (vlog-13299) Undefined variable: 'overflow'.
+# ** Error: hw6.v(25): (vlog-2730) Undefined variable: 'overflow_flag'.
+# ** Error (suppressible): hw6.v(53): (vlog-13299) Undefined variable: 'DataIn1'.
+# ** Error (suppressible): hw6.v(62): (vlog-13299) Undefined variable: 'DataIn2'.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: DataIn1.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: DataIn2.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: EvenParity.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: GreyCode.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: overflow.
+# End time: 18:45:49 on Oct 11,2019, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# /afs/eos.ncsu.edu/dist/mg_apps/modelsimSE10.6c/linux_x86_64/vlog failed.
+vlog hw6.v
+# Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+# Start time: 18:52:36 on Oct 11,2019
+# vlog -reportprogress 300 hw6.v 
+# -- Compiling module accum
+# ** Error: (vlog-13069) hw6.v(4): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): hw6.v(22): (vlog-13299) Undefined variable: 'EvenParity'.
+# ** Error (suppressible): hw6.v(23): (vlog-13299) Undefined variable: 'GreyCode'.
+# ** Error (suppressible): hw6.v(24): (vlog-13299) Undefined variable: 'overflow'.
+# ** Error: hw6.v(25): (vlog-2730) Undefined variable: 'overflow_flag'.
+# ** Error (suppressible): hw6.v(53): (vlog-13299) Undefined variable: 'DataIn1'.
+# ** Error (suppressible): hw6.v(62): (vlog-13299) Undefined variable: 'DataIn2'.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: DataIn1.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: DataIn2.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: EvenParity.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: GreyCode.
+# ** Error: hw6.v(2): (vlog-13294) Identifier must be declared with a port mode: overflow.
+# End time: 18:52:36 on Oct 11,2019, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# /afs/eos.ncsu.edu/dist/mg_apps/modelsimSE10.6c/linux_x86_64/vlog failed.
+vlog hw6.v
+# Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+# Start time: 18:54:30 on Oct 11,2019
+# vlog -reportprogress 300 hw6.v 
+# -- Compiling module accum
+# 
+# Top level modules:
+# 	accum
+# End time: 18:54:30 on Oct 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog hw6.v
+# Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+# Start time: 18:55:25 on Oct 11,2019
+# vlog -reportprogress 300 hw6.v 
+# -- Compiling module accum
+# 
+# Top level modules:
+# 	accum
+# End time: 18:55:25 on Oct 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.accum
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run -all
+# ** Note: $finish    : test_fixture.v(169)
+#    Time: 2636 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test_fixture.v line 169
+vlog hw6.v
+# Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+# Start time: 19:09:48 on Oct 11,2019
+# vlog -reportprogress 300 hw6.v 
+# -- Compiling module accum
+# ** Error: hw6.v(32): (vlog-2730) Undefined variable: 'hold'.
+# End time: 19:09:48 on Oct 11,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /afs/eos.ncsu.edu/dist/mg_apps/modelsimSE10.6c/linux_x86_64/vlog failed.
+vlog hw6.v
+# Model Technology ModelSim SE-64 vlog 10.6c Compiler 2017.07 Jul 25 2017
+# Start time: 19:10:16 on Oct 11,2019
+# vlog -reportprogress 300 hw6.v 
+# -- Compiling module accum
+# 
+# Top level modules:
+# 	accum
+# End time: 19:10:17 on Oct 11,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:35:29 on Oct 11,2019, Elapsed time: 2:47:07
+# Errors: 18, Warnings: 0

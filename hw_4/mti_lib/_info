@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/d/djmock/Documents/ECE_564/hw_4
+vfsm
+!s110 1569600923
+!i10b 1
+!s100 @H^Ui7kKKWU_f@T1=^lLR0
+I14^FVaDR=1;i[;3dn_aIT2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1569600894
+8badFSM.v
+FbadFSM.v
+L0 3
+Z2 OL;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1569600923.000000
+!s107 badFSM.v|
+!s90 -reportprogress|300|badFSM.v|
+!i113 1
+Z3 tCvgOpt 0
+vtest_fsm
+!s110 1569599052
+!i10b 1
+!s100 zMeoQ:U9meSaE9[ZRzUcU3
+IA7V2TRVeJ3UBMeQdK[Ca52
+R1
+R0
+w1569596043
+8badFSM_test.v
+FbadFSM_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1569599052.000000
+!s107 badFSM_test.v|
+!s90 badFSM_test.v|
+!i113 1
+R3

@@ -1,0 +1,21 @@
+//----------------------------------------------------------------------------------------------------
+// To run simulation
+// add modelsim10.6c
+// export MODELSIM=modelsim.ini
+// vlog -sv ece564_project_tb_top.v
+// vsim -c -do "run -all" tb_top
+
+//In input_and_output_* folders
+//--sram.dat includes the x(t) vectors;
+//--x16_c_result_ece564.dat is the c(t) results calculated by MATLAB; 
+//--x16_h_result_ece564.dat is the h(t) results calculated by MATLAB; 
+//--f, g, i, o.dat are weights and bias.
+
+//tanh.dat includes the tanh LUT.
+
+//NOTE:
+//***Please design the busy signal according to spec, or the testbench may not run correctly.
+//***There might be quantization error between your results and golden MATLAB results, we will consider it in future demo, for now, you can change the VALID variable in testbench so you can mask some lower bits.
+//***You can change the ROUND variable in testbench so it can run N rounds with different input vectors and weights. 
+//***Please do not change the hierarcy and name of files .
+//***Please store your results according to address mapping in spec; missing elements will lead to testbench warnings.

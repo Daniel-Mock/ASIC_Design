@@ -1,0 +1,46 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : ECE564MyDesign
+Version: M-2016.12-SP4
+Date   : Fri Nov 22 16:44:09 2019
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_fast_nldm
+Wire Load Model Mode: top
+
+  Startpoint: write_addr_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: write_addr_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  write_addr_reg_1_/CK (DFF_X2)          0.0000     0.0000 r
+  write_addr_reg_1_/Q (DFF_X2)           0.0527     0.0527 r
+  U913/ZN (XNOR2_X2)                     0.0134     0.0661 f
+  write_addr_reg_1_/D (DFF_X2)           0.0000     0.0661 f
+  data arrival time                                 0.0661
+
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  write_addr_reg_1_/CK (DFF_X2)          0.0000     0.0500 r
+  library hold time                     -0.0001     0.0499
+  data required time                                0.0499
+  -----------------------------------------------------------
+  data required time                                0.0499
+  data arrival time                                -0.0661
+  -----------------------------------------------------------
+  slack (MET)                                       0.0162
+
+
+1

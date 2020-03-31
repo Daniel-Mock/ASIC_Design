@@ -1,0 +1,56 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : accum
+Version: K-2015.06-SP1
+Date   : Fri Oct 11 18:59:38 2019
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: DataIn2[4] (input port clocked by clock)
+  Endpoint: EvenParity_reg[7]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  input external delay                   0.6580     0.6580 f
+  DataIn2[4] (in)                        0.1034     0.7614 f
+  U14/Z (XOR2_X2)                        0.4027     1.1641 f
+  U13/Z (XOR2_X2)                        0.3926     1.5567 f
+  U12/Z (XOR2_X2)                        0.4061     1.9628 f
+  add_1_root_add_92_2/U1_0/CO (FA_X1)    0.6073     2.5702 f
+  U62/ZN (AND2_X1)                       0.2193     2.7894 f
+  U60/ZN (AND2_X1)                       0.1842     2.9737 f
+  U58/ZN (AND2_X1)                       0.1842     3.1579 f
+  U56/ZN (AND2_X1)                       0.1842     3.3422 f
+  U54/ZN (AND2_X1)                       0.1842     3.5264 f
+  U52/ZN (AND2_X1)                       0.1842     3.7106 f
+  U51/Z (XOR2_X1)                        0.3557     4.0664 f
+  U38/ZN (AND2_X1)                       0.2056     4.2720 f
+  EvenParity_reg[7]/D (DFF_X2)           0.0000     4.2720 f
+  data arrival time                                 4.2720
+
+  clock clock (rise edge)               10.0000    10.0000
+  clock network delay (ideal)            0.0000    10.0000
+  clock uncertainty                     -0.0500     9.9500
+  EvenParity_reg[7]/CK (DFF_X2)          0.0000     9.9500 r
+  library setup time                    -0.3008     9.6492
+  data required time                                9.6492
+  -----------------------------------------------------------
+  data required time                                9.6492
+  data arrival time                                -4.2720
+  -----------------------------------------------------------
+  slack (MET)                                       5.3772
+
+
+1

@@ -1,0 +1,26 @@
+ 
+****************************************
+Report : cell
+Design : fsm
+Version: K-2015.06-SP1
+Date   : Thu Oct  3 14:26:09 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U3                        XOR2_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            1.5960  
+U4                        INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+current_state_reg         DFFR_X2         NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            5.5860  n
+--------------------------------------------------------------------------------
+Total 3 cells                                               7.7140
+1
